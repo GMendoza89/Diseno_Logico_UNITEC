@@ -1,0 +1,16 @@
+v 4
+file . "Comparador_n.vhd" "cbc7572bbd403ec242610550b81a77d2a393e6bf" "20221114233635.089":
+  entity comparador_n at 1( 0) + 0 on 33;
+  architecture recurrence of comparador_n at 15( 320) + 0 on 34;
+file . "comparador.vhd" "02086935f2bca93cd2186c1f1f179281ce0e1582" "20220714221156.363":
+  entity comparador at 1( 0) + 0 on 25;
+  architecture comparation of comparador at 11( 182) + 0 on 26;
+file . "TB_med_comparador.vhd" "a9f806f0ffe187e9fd832431b2d9de7472fcf8c3" "20220714215828.621":
+  entity tb_med_comparador at 1( 0) + 0 on 23;
+  architecture simulation of tb_med_comparador at 7( 96) + 0 on 24;
+file . "med_comparador.vhd" "bc6ecf55be6d0bcbcc379291f977319af93725bf" "20220714215518.933":
+  entity med_comparador at 1( 0) + 0 on 19;
+  architecture comparation of med_comparador at 11( 178) + 0 on 20;
+file . "TB_comparador.vhd" "2f272ca902ab3bfaa4a2bfc83772493ff284f357" "20220714221731.894":
+  entity tb_comparador at 1( 0) + 0 on 27;
+  architecture simulation of tb_comparador at 7( 88) + 0 on 28;

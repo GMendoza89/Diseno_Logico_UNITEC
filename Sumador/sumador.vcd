@@ -1,0 +1,84 @@
+$date
+  Thu Nov 17 17:00:43 2022
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module tb_sumador $end
+$var reg 1 ! a $end
+$var reg 1 " b $end
+$var reg 1 # ci $end
+$var reg 1 $ co $end
+$var reg 1 % s $end
+$scope module simblk01 $end
+$var reg 1 & a $end
+$var reg 1 ' b $end
+$var reg 1 ( ci $end
+$var reg 1 ) s $end
+$var reg 1 * co $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+0"
+0#
+0$
+0%
+0&
+0'
+0(
+0)
+0*
+#20000000
+1"
+1%
+1'
+1)
+#40000000
+1!
+0"
+1&
+0'
+#60000000
+1"
+1$
+0%
+1'
+0)
+1*
+#80000000
+0!
+0"
+1#
+0$
+1%
+0&
+0'
+1(
+1)
+0*
+#100000000
+1"
+1$
+0%
+1'
+0)
+1*
+#120000000
+1!
+0"
+1&
+0'
+#140000000
+1"
+1%
+1'
+1)

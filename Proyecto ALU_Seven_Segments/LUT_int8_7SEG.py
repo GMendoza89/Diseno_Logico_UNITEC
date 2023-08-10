@@ -52,9 +52,9 @@ for i in range(0,D):
         display.append(SevenSeg.decimal2SevenSegCC(d))
     #
     if  sign < 0:
-        display.append(SevenSeg.int2SevenSegCC(-1))
+        display.append(SevenSeg.decimal2SevenSegCC(-1))
     else:
-        display.append(SevenSeg.int2SevenSegCC(10))
+        display.append(SevenSeg.decimal2SevenSegCC(10))
     # guardamos el el arreglo alreves
     for k in range(numOfDisplay-1,-1,-1):
         disp = int(numOfDisplay-1-k)

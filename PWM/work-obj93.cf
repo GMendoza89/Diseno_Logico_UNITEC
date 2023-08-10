@@ -1,0 +1,19 @@
+v 3
+file . "PWM.vhd" "20190320172046.000" "20190320123141.964":
+  entity pwm at 1( 0) + 0 on 69;
+  architecture behavioral of pwm at 10( 183) + 0 on 70;
+file . "LUT.vhd" "20190320172241.000" "20190320123141.977":
+  entity lut at 1( 0) + 0 on 75;
+  architecture mux of lut at 9( 168) + 0 on 76;
+file . "Contador_1KHz.vhd" "20190314184431.000" "20190320123141.966":
+  entity contador_1khz at 1( 0) + 0 on 71;
+  architecture behavioral of contador_1khz at 10( 183) + 0 on 72;
+file . "Contador_DutyCicle.vhd" "20190320171956.000" "20190320123141.977":
+  entity contador_dutycicle at 1( 0) + 0 on 73;
+  architecture behavioral of contador_dutycicle at 12( 281) + 0 on 74;
+file . "FSM_PWM.vhd" "20190320171126.000" "20190320123141.978":
+  entity fsm_pwm at 1( 0) + 0 on 77;
+  architecture behavioral of fsm_pwm at 12( 247) + 0 on 78;
+file . "TB_PWM.vhd" "20190320182909.000" "20190320123141.963":
+  entity tb_pwm at 1( 0) + 0 on 67;
+  architecture simulation of tb_pwm at 7( 74) + 0 on 68;

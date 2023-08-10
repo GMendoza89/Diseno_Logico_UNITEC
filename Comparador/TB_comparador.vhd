@@ -4,7 +4,7 @@ use IEEE.std_logic_1164.all;
 Entity TB_comparador is
 End TB_comparador;
 
-architecture simulation of TB_comparador is
+Architecture simulation of TB_comparador is
     component comparador is
         port(
             A, B, Gi, Ei, Li : in  std_logic;

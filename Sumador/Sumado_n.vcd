@@ -1,0 +1,96 @@
+$date
+  Wed Jul 26 14:52:58 2023
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module tb_sumador_n $end
+$var reg 8 ! a[7:0] $end
+$var reg 8 " b[7:0] $end
+$var reg 8 # s[7:0] $end
+$var reg 1 $ co $end
+$var reg 1 % v $end
+$var reg 1 & z $end
+$var reg 1 ' sn $end
+$scope module simblk $end
+$var reg 8 ( a[7:0] $end
+$var reg 8 ) b[7:0] $end
+$var reg 8 * s[7:0] $end
+$var reg 1 + co $end
+$var reg 1 , v $end
+$var reg 1 - z $end
+$var reg 1 . sn $end
+$var reg 9 / c[8:0] $end
+$var reg 8 0 p[7:0] $end
+$var reg 8 1 r[7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b00001100 !
+b00001100 "
+b00011000 #
+0$
+0%
+0&
+0'
+b00001100 (
+b00001100 )
+b00011000 *
+0+
+0,
+0-
+0.
+b000011000 /
+b11111000 0
+b00011000 1
+#20000000
+b10001100 "
+b10011000 #
+1'
+b10001100 )
+b10011000 *
+1.
+b10011000 1
+#40000000
+b11111111 "
+b00001011 #
+1$
+0'
+b11111111 )
+b00001011 *
+1+
+0.
+b111111000 /
+b11111111 0
+b00001011 1
+#60000000
+#80000000
+b00001100 "
+b00011000 #
+0$
+0%
+0'
+b00001100 )
+b00011000 *
+0+
+0,
+0.
+b000011000 /
+b11111000 0
+b00011000 1
+#100000000
+b10001100 "
+b10011000 #
+1'
+b10001100 )
+b10011000 *
+1.
+b10011000 1

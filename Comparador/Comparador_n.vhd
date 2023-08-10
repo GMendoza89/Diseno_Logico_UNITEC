@@ -3,13 +3,12 @@ use IEEE.std_logic_1164.all;
 
 Entity Comparador_n is
     generic (
-        n : integer := 4        -- Definición de Variables Genericas
+        n : integer := 8        -- Definición de Variables Genericas
     );
     port(
         A,B        : in std_logic_vector(n-1 downto 0);
         Gi, Ei, Li : in std_logic;
-        Go, Eo, Lo : out std_logic
-    );
+        Go, Eo, Lo : out std_logic);
 END Comparador_n;
 
 Architecture Recurrence of Comparador_n is

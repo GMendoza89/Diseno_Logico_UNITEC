@@ -1,0 +1,13 @@
+v 4
+file . "TB_sumador.vhd" "92ccd936551b8bb2c005205159f66ead94d8c967" "20230726203610.981":
+  entity tb_sumador at 1( 0) + 0 on 17;
+  architecture simulation of tb_sumador at 7( 83) + 0 on 18;
+file . "sumador.vhd" "e13f6952b2b0a92e2f8247224692928d3ee607a9" "20221117225143.692":
+  entity sumador at 1( 0) + 0 on 11;
+  architecture behavioral of sumador at 13( 228) + 0 on 12;
+file . "Sumador_n.vhd" "3acb598acc3a956e974c5fcd4c68e951c830b9d9" "20230726205241.398":
+  entity sumador_n at 1( 0) + 0 on 23;
+  architecture recurrence of sumador_n at 19( 631) + 0 on 24;
+file . "TB_Sumador_n.vhd" "44041bfa599c8af66c1cbba71f6d170126ee9959" "20230726205246.473":
+  entity tb_sumador_n at 1( 0) + 0 on 25;
+  architecture simulation of tb_sumador_n at 7( 86) + 0 on 26;
